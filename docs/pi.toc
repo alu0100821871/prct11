@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Objetivo}{7}{0}{1}
+\beamer@sectionintoc {2}{N\IeC {\'u}mero pi}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Definici\IeC {\'o}n}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Notaci\IeC {\'o}n}{9}{0}{2}
+\beamer@sectionintoc {3}{F\IeC {\'o}rmulas}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Primera f\IeC {\'o}rmula}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Segunda f\IeC {\'o}rmula}{11}{0}{3}
+\beamer@subsectionintoc {3}{3}{Tercera f\IeC {\'o}rmula}{12}{0}{3}
+\beamer@subsectionintoc {3}{4}{Cuarta f\IeC {\'o}rmula}{13}{0}{3}
+\beamer@subsectionintoc {3}{5}{Quinta f\IeC {\'o}rmula}{14}{0}{3}
+\beamer@sectionintoc {4}{Historia}{15}{0}{4}
+\beamer@subsectionintoc {4}{1}{Evoluci\IeC {\'o}n}{15}{0}{4}
+\beamer@subsectionintoc {4}{2}{C\IeC {\'a}lculo}{16}{0}{4}
+\beamer@sectionintoc {5}{Bibliograf\IeC {\'\i }a}{19}{0}{5}

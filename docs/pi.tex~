@@ -1,0 +1,207 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Número $\pi$]{El número $\pi$ }
+\author[Iciar González Alonso]{Iciar González Alonso}
+\date[25-03-2014]{25 de marzo de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetheme{Madrid}
+
+\definecolor {pantone254}{RGB}{122,59,122}
+\definecolor {pantone3015}{RGB}{0,88,147}
+\definecolor {pantone432}{RGB}{56,61,66}
+\setbeamercolor*{palette primary}{use=structure, fg=white, bg=pantone254}
+\setbeamercolor*{palette secondary}{use=structure, fg=white, bg=pantone3015}
+\setbeamercolor*{palette tertiary}{use=structure, fg=white, bg=pantone432}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc}
+  \hspace*{7.0cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Índice}
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{Objetivo}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Objetivo}
+
+\begin{definicion}
+
+El objetivo de esta práctica es entregar una presentación usando \textsc{beamer} que verse sobre el número $\pi$.
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Número pi}
+
+\subsection{Definición}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Definición}
+$\pi$ es la relación entre la longitud de una circunferencia y su diámetro, en ggeometría euclidiana. Es un número irracional y una de las constantes matemáticas más importantes. 
+El valor numérico del número $\pi$, expresado con sus primeras cincuenta cifras decimales es el siguiente: 
+\begin{center}
+$\pi$ ~ 3.14159265358979311599796346854418516159057617187500
+\end{center}
+
+El valor de $\pi$ se ha obtenido con diversas aproximaciones a lo largo de la historia. Junto con el número e, es una de las constantes matemáticas más utilizadas.
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\subsection{Notación}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Notación}
+
+\begin{definicion}
+  La notación con la letra griega $\pi$ proviene de las palabras de origen griego "periferia" y "perímetro" de un círculo.
+Esta notación fue utilizada por primera vez por Willian Oughtred (1574-1660) y aunque su uso fue propuesto por el matemático galés Willian Jones (1675-1749) fue el matemático Leonhard Euler con su obra "Introduccion al cálculo infinitesimal", de 1748 quien la popularizó. 
+Anteriormente había sido conocida como "Constante de Arquímedes" y como "constante de Ludolph" (en honor al matemático Ludolph van Ceulen).\cite{URL:HTTP}
+\end{definicion}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Fórmulas}
+\subsection{Primera fórmula}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Primera fórmula}
+$$\int_{0}^{1} \! \frac{4}{1+x^2}\, dx = 4(atan(1) -atan(0)) = \pi $$
+
+\end{frame}
+
+\subsection{Segunda fórmula}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Segunda fórmula}
+
+\[x=\frac{a_2 x ^ 2 + a_1 x + a_0}{1+2z ^ 3}\]
+\end{frame}
+
+
+\subsection{Tercera fórmula}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Tercera fórmula}
+
+\[\quad x+y ^ {2n+2}=\sqrt{b ^ 2-4ac}\]
+\end{frame}
+
+
+\subsection{Cuarta fórmula}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Cuarta fórmula}
+\[ S_n=a_1+\cdots + a_n = \sum_{i=1} ^ n a_i \]
+
+\end{frame}
+
+
+\subsection{Quinta fórmula}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Quinta fórmula}
+\[\int_{x=0} ^ {\infty} x\, \text{e} ^ {-x ^ 2} \text{d}x=\frac{1}{2}, \quad\text{e} ^ {i\pi}+1=0\]
+
+\end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ 
+
+\section{Historia}
+
+\subsection{Evolución}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Evolución}
+
+La primera referencia que se conoce actualmente de $\pi$ es aproximadamente del año 1650 a.C. en el Papiro de Ahmes. En este domcumento estaban contenidos numerosos problemas matemáticos básicos, fracciones, cálculo de áreas y volúmenes, ecuaciones, progresiones, trigonometría,... 
+El valor que se le da a $\pi$ es 2**8/3**4 ~ 3,1605
+
+Una vez situados en la época de la informática, uno de los métodos para comprobar la eficacia de las máquinas era utilizarlas para calcular decimales de $\pi$. En el año 1949 una computadora ENIAC fue capaz de calcular 2037 decimales en 70 horas, en 1966 un IBM 7030 llegó a 250.000 cifras decimales en 8 horas y 23 minutos y ya en el siglo XXI, en el año 2004, un superordenador Hitachi estuvo trabajando 500 horas para calcular 1,3511 billones de lugares decimales.
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\subsection{Cálculo}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Cálculo}
+
+\begin{definition}
+
+Desde el Antiguo Egipto hasta la Matemática china, india o islámica, pasando por Mesopotamia e incluso referencias bíblicas, las aproximaciones de este número eran bastante rudimentarias. 
+A partir del siglo XII y fundamentalmente durante el Renacimiento Europeo y la Época moderna (pre-computacional) estos cálculos se fueron mejorando.
+Pero no fue hasta la llegada de los computadores cuando se consiguió calcular un número impensable en siglos pasados de cifras decimales, y a partir del siglo XX su precisión ha ido en aumento, así como va disminuyendo el tiempo que tarda el ordenador en calcular estos decimales.
+\end{definition}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Plan Estudios, 2011]{plan}
+    Documento de verificación del grado.
+    (2011)
+
+    \beamertemplatebookbibitems
+    \bibitem[Guía Docente, 2013]{guia}
+    Guía docente.
+    (2013)
+    {\small $http://eguia.ull.es/matematicas/query.php?codigo=299341201$}
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTAN]{latex}
+    CTAN. {\small $http://www.ctan.org/$}
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\end{document}
